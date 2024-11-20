@@ -1,0 +1,51 @@
+{
+  "name": "Viaje al Oeste",
+  "description": "Servidor de RedM con whitelist oral u escrita bla bla bla. Delta pesao",
+  "repository": "https://github.com/AndreaMZ03/zumito",
+  "logo": "https://media.discordapp.net/attachments/1085342015711084595/1098506807799984128/logo2.png?width=713&height=712",
+  "keywords": [
+    "node",
+    "discord",
+    "youtube",
+    "music",
+    "bot",
+    "lavalink",
+    "dashboard"
+  ],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "Prefix": {
+      "description": "?",
+      "required": "true"
+    },
+    "Token": {
+      "description": "MTA5OTQ1NTk3MzkwODgyODE5MA.GfJYYN._wnhAW0cK60BVdM0xxiG3dNwAfVluW7oBiApsg",
+      "required": "true"
+    },
+    "Discord_ClientID": {
+      "description": "The Discord Bot ClientID",
+      "required": "true"
+    },
+    "Discord_ClientSecret": {
+      "description": "The Discord Bot ClientSecret",
+      "required": "true"
+    },
+    "Website": {
+      "description": "URL of your webserver (Example: https://domain.xyz). Change this if you want to use the web-dashboard.",
+      "value": "http://localhost"
+    },
+    "Spotify_ClientID": {
+      "description": "Spotify ClientID. This is used if you want to use Spotify features for your bot. (https://developer.spotify.com/dashboard/)",
+      "required": "true"
+    },
+    "Spotify_ClientSecret": {
+      "description": "Spotify ClientSecret. This is used if you want to use Spotify features for your bot. (https://developer.spotify.com/dashboard/)",
+      "required": "true"
+    }
+  }
+}
