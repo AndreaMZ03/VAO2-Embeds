@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./assets/logo.gif" width="30px"> Forked zumibot <img src="./assets/logo.gif" width="30px"></h1>
+<h1 align="center"><img src="./assets/logo.gif" width="30px"> Forked embed discord bot <img src="./assets/logo.gif" width="30px"></h1>
 <p align="center">Just a mod from fellow developper</p>
 
 ## Latest Updates
